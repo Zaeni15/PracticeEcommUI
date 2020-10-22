@@ -1,0 +1,30 @@
+.mat-card{
+    max-width: 30%;
+    margin-left: 50%;
+    margin-top: 25%;
+    min-height: 87%;
+}
+
+input, label{
+    padding-right: 2%;
+    display: block;
+}
+input, #rememberBox{
+    display: inline;
+    font-size: small;
+}
+
+a{
+    font-size: small;
+}
+
+.loginText{
+    min-width: 81%;
+}
+button{
+    margin-top: 10%;
+    margin-left: 61%;
+}
+#loginContainer{
+    margin-top: 27%;
+}

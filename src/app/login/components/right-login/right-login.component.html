@@ -1,0 +1,21 @@
+<div>
+  <mat-card>
+    <div id="loginContainer">
+      <div>
+        <label>Username</label>
+        <input class="loginText" type="text" placeholder="Enter Username" (change)="userDetails('username', $event)">
+      </div>
+      <div>
+        <label>Password</label>
+        <input class="loginText" type="password" placeholder="Enter Password" (change)="userDetails('password', $event)">
+      </div>
+      <div>
+        <!-- <input type="checkbox" (change)="toggleBox($event)" [checked]="userSearch.rememberBox === true"> -->
+        <input type="checkbox" (change)="toggleBox($event)">
+        <label id="rememberBox">Remember me</label>
+        <a href="/">Forgot password</a>
+      </div>
+      <button (click)="submitLogin(userSearch)">Submit</button>
+    </div>
+  </mat-card>
+</div>

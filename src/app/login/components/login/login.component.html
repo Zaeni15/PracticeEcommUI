@@ -1,0 +1,4 @@
+<div fxLayout="row">
+    <app-left-login fxFlex="50" fxLayout="column"></app-left-login>
+    <app-right-login fxFlex="50" fxLayout="column" [userSearch] ="userSearch" (saveUserSearchEvent) = saveUserSearch($event)></app-right-login>
+</div>
