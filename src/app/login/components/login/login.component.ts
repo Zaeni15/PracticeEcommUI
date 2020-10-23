@@ -14,7 +14,6 @@ export class LoginComponent implements OnInit {
   constructor(private loginSearchService: LoginSearchService) { }
 
   ngOnInit() {
-    // console.log('in login');
     this.userSearch = this.loginSearchService.getLoginSearchData();
     
   }

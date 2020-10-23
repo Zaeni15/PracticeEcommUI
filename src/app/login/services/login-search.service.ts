@@ -20,7 +20,7 @@ export class LoginSearchService {
   }
 
   saveUserSearch(userLogin: LoginSearch) {
-    console.log("in post");
+    console.log("***in post***");
     return this.httpClient.post("https://c96f7dab-7d6f-42c6-9e76-cfb1f3074260.mock.pstmn.io/v0/login", userLogin).pipe(map(data => {
       this.router.navigate(["dashboard"])}));;
   }
